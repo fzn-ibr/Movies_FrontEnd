@@ -1,37 +1,150 @@
-.movie-container{
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@700&family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Exo;
+    color: rgb(197, 197, 197)
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 36, 36);
+}
+
+.main-header {
+    background-image: url("Images/bg-image.jpg");
+    background-size: cover;
+    padding-bottom: 90px;
+    margin-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+    margin:0 ;
+    font-size: 7em;
+    font-family: Pacifico;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 4px double rgb(112, 112, 112);
+}
+
+.nav input[type=search]{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 15px;
+    margin-right: 16px;
+    font-size: 2em;
+    color: rgb(158, 158, 158);
+    border-radius: 5px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.movie-item {
     margin: 30px;
-    width: 675px;
+}
+
+.movie-item:hover {
+    background-color: rgba(255, 255, 255, .3);
 }
 
 .movie-image {
-    height: 1000px;
-    width: 675px;
-
-}
-
-.movie-details {
-    text-align: center;
+    height: 750px;
+    width: 500px;
+    border-radius: 10px;
 }
 
 .movie-title {
-    display: black;
-    width: 100%;
+    display: box;
+    width: 500px;
     text-align: center;
-    font-weight: bold;
-    font-size: 4em;
-    color: #333;
-    margin-top: 15px;
+    font-size: 2.5em;
+    margin-top: 2px;
     margin-bottom: 1px;
 }
 
 .movie-year {
-    display: black;
-    font-size: 2.5em;
-    margin-top: 0px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 1px;
 }
 
-.movie-items {
+.movie-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.movie-modal {
+    background-color: rgb(36, 36, 36);
+    margin: 10% auto;
+    padding: 40px 40px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 0 rgba(255, 255, 255, 0.2), 0 7px 20px 0 rgba(255, 255, 255, 0.17);
+}
+
+.movie-modal h2 {
+    font-size: 5em;
+    margin: 1px;
+}
+
+.rating {
+    float: right;
+    font-size: 3em;
+}
+
+.movie-modal ul {
+    margin: 1px;
+    font-size: 2em;
+    padding: 0;
+}
+
+.movie-modal li {
+    display: inline;
+    margin-left: 0;
+    margin-right: 0.5em;
+    font-size: 1em;
+}
+
+.genre {
+    font-size: 1.5em;
+    color: rgb(65, 65, 65);
+    margin-right: 5px;
+}
+
+.movie-modal p {
+    font-size: 1.5em;
+}
+
+.close-btn {
+    color: rgb(158, 158, 158);
+    float: right;
+    font-size: 30px;
+    margin-top: 1px;
+}
+
+.close-btn:hover, .close-btn:focus {
+    color: rgba(255, 255, 255, .9);
+    text-decoration: none;
+    cursor: pointer;
 }
