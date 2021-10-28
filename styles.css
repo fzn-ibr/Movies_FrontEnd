@@ -122,7 +122,11 @@ html, body {
 
 .rating {
     float: right;
-    font-size: 3vw;
+    font-size: 1vw;
+}
+
+.rating i {
+    color: rgb(28, 158, 245);
 }
 
 .movie-modal ul {

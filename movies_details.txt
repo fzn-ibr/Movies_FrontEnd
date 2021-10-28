@@ -40,7 +40,7 @@ Description : A simple act of kindness always sparks another, even in a frozen, 
 Time : 1h 36 min
 Link : https://www.imdb.com/title/tt4729430/
 
-7. JOker (2019)
+7. Joker (2019)
 IMDb Rating :  8.4/10
 Genre : Crime, Drama, Thriller
 Description : In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.
@@ -90,7 +90,7 @@ Time : 1h 44min
 Link : https://www.imdb.com/title/tt8239946/
 
 14. Green Book (2018)
-IMDb Rating :  /10
+IMDb Rating :  8.2/10
 Genre : Biography, Coemdy, Drama
 Description : A working-class Italian-American bouncer becomes the driver of an African-American classical pianist on a tour of venues through the 1960s American South.
 Time : 2h 10min
@@ -119,7 +119,7 @@ Link : https://www.imdb.com/title/tt2380307/
 
 18. Three Billboards Outside Ebbing, Missouri (2017)
 IMDb Rating :  8.1/10
-Genre : Comedy, Crime,Dram
+Genre : Comedy, Crime,Drama
 Description : A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit.
 Time : 1h 55min
 Link : https://www.imdb.com/title/tt5027774/
