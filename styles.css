@@ -15,14 +15,14 @@ html, body {
 .main-header {
     background-image: url("Images/bg-image.jpg");
     background-size: cover;
-    padding-bottom: 90px;
+    padding-bottom: 4vw;
     margin-bottom: 10px;
 }
 
 .title {
     text-align: center;
     margin:0 ;
-    font-size: 7em;
+    font-size: 6vw;
     font-family: Pacifico;
     color: white;
     padding-bottom: 10px;
@@ -33,37 +33,38 @@ html, body {
     float: right;
     padding: 6px;
     border: none;
-    margin-top: 15px;
+    margin-top: 1vw;
     margin-right: 16px;
-    font-size: 2em;
+    font-size: 1vw;
     color: rgb(158, 158, 158);
     border-radius: 5px;
 }
 
 .container {
     margin: 0 auto;
-    padding: 0 1.5em;
+    padding: 0 1.5vw;
 }
 
 .movie-item {
-    margin: 30px;
+    margin: 1vw;
 }
 
 .movie-item:hover {
     background-color: rgba(255, 255, 255, .3);
+    cursor: pointer;
 }
 
 .movie-image {
-    height: 750px;
-    width: 500px;
-    border-radius: 10px;
+    height: 15vw;
+    width: 10vw;
+    border-radius: 15px;
 }
 
 .movie-title {
     display: box;
-    width: 500px;
+    width: 10vw;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 1.5vw;
     margin-top: 2px;
     margin-bottom: 1px;
 }
@@ -72,8 +73,8 @@ html, body {
     display: block;
     width: 100%;
     text-align: center;
-    font-size: 1.5em;
-    margin-top: 1px;
+    font-size: 1.2vw;
+    margin-top: 2px;
 }
 
 .movie-container {
@@ -103,19 +104,30 @@ html, body {
     box-shadow: 0 5px 8px 0 rgba(255, 255, 255, 0.2), 0 7px 20px 0 rgba(255, 255, 255, 0.17);
 }
 
+.movie-image-modal {
+    height: 30vw;
+    width: 20vw;
+    border-radius: 15px;
+    margin-right: 0.1vw;
+}
+
+.movie-image-modal:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
 .movie-modal h2 {
-    font-size: 5em;
+    font-size: 3vw;
     margin: 1px;
 }
 
 .rating {
     float: right;
-    font-size: 3em;
+    font-size: 3vw;
 }
 
 .movie-modal ul {
     margin: 1px;
-    font-size: 2em;
+    font-size: 1vw;
     padding: 0;
 }
 
@@ -127,13 +139,23 @@ html, body {
 }
 
 .genre {
-    font-size: 1.5em;
+    font-size: 1vw;
     color: rgb(65, 65, 65);
     margin-right: 5px;
+    margin-top: 1vw;
 }
 
-.movie-modal p {
-    font-size: 1.5em;
+.features {
+    display: flex;
+    align-items: center;
+}
+
+.detailed-features {
+    margin-left: 1vw;
+}
+
+.description{
+    font-size: 1vw;
 }
 
 .close-btn {
