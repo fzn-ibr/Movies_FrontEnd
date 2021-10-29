@@ -38,6 +38,12 @@ html, body {
     font-size: 1vw;
     color: rgb(158, 158, 158);
     border-radius: 5px;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+}
+
+.nav input[type=text]:focus {
+    width: 70%;
 }
 
 .container {
